@@ -1,6 +1,6 @@
 // src/pages/Libros.jsx
 import { useLibros } from "../hooks/useLibros";
-import LibroCard from "../components/libroCard";
+import LibroCard from "../components/libroCard.jsx";
 
 export default function Libros() {
   const { libros, loading } = useLibros();
@@ -8,7 +8,7 @@ export default function Libros() {
   if (loading) return <p>Cargando libros...</p>;
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6">
+    <div >
       {libros.map((libro) => (
         <LibroCard key={libro.id} {...libro} />
       ))}
