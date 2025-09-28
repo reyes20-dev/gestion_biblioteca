@@ -1,0 +1,5 @@
+comandos para ejecutar los entornos
+
+Backend         ----->          uvicorn backend.main:app --reload
+
+Fronted         ----->          pnpm dev

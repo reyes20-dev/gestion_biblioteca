@@ -1,3 +1,5 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    // agregamos esto para que deje de salir la advertencia en mi index.css 
+    "css.lint.unknownAtRules": "ignore"
 }
