@@ -1,0 +1,1 @@
+# este proyecto consistiria un sistema de gestion de biblioteca con un breve CRUD y buena diseno de UI
